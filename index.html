@@ -759,6 +759,12 @@ body.editing [data-e]:hover,body.editing [data-e]:focus{outline:2px solid var(--
 .coachhd .coachico{position:absolute;left:56%;bottom:100%;transform:translateX(-50%);width:170px;height:88px;margin-bottom:2px}
 .coachhd{margin-top:70px;margin-bottom:34px}
 .slide .vs.flex1{align-content:start}
+/* ── v125 slide 16 ── */
+.vis-ico.gym.big,.vis-ico.sp.big{height:150px;margin-bottom:0}
+.vs .mid i.sp.big{min-height:150px;margin-bottom:0}
+.vs .hdr{height:42px;display:flex;align-items:flex-end;padding-bottom:8px}
+.vs .hdr.bigcoach{font-size:22px;letter-spacing:-.3px;text-transform:none;font-family:var(--head);font-weight:800;color:var(--ink)}
+.vs .mid i.sp.big+i{margin-top:42px}
 @media (prefers-reduced-motion:reduce){.progress{transition:none}}
 @media print{
   body{background:#fff;overflow:visible}
@@ -1072,17 +1078,19 @@ body.editing [data-e]:hover,body.editing [data-e]:focus{outline:2px solid var(--
 
 <section class="slide light" data-num="16" data-notes="5 min. Introduce the word. From today you are not tutors. This is not tutoring where the child watches you solve. You're a builder: of confidence, reasoning and habits. Ask them to notice the pull to jump in with the answer when a child goes quiet, and to resist it.">
   <div class="eyebrow">A new word for what you do</div>
-  <h2 class="coachhd">Tutor <span>vs Coach.<svg class="coachico" viewBox="0 0 240 124" role="img" aria-label="A coach spots a learner lifting a barbell and says: you have got it"><path d="M10 118 h220" stroke="#D9D9D9" stroke-width="3" stroke-linecap="round"/><path d="M115.0 22 h70" stroke="#2B2B2B" stroke-width="5" stroke-linecap="round"/><rect x="101.0" y="6" width="14" height="32" rx="3" fill="#FFBA07"/><rect x="185.0" y="6" width="14" height="32" rx="3" fill="#FFBA07"/><rect x="93.0" y="11" width="8" height="22" rx="2" fill="#FFBA07"/><rect x="199.0" y="11" width="8" height="22" rx="2" fill="#FFBA07"/><circle cx="150" cy="44" r="11.0" fill="#2B2B2B"/><rect x="139.0" y="57.0" width="22.0" height="34.0" rx="9.0" fill="#2B2B2B"/><path d="M144.0 91.0 v26.0 M156.0 91.0 v26.0" stroke="#2B2B2B" stroke-width="7.0" stroke-linecap="round"/><path d="M140.0 62.0 l-14 -24 M160.0 62.0 l14 -24" stroke="#2B2B2B" stroke-width="6.0" stroke-linecap="round"/><circle cx="70" cy="46" r="10.45" fill="#B5B5B5"/><rect x="59.55" y="58.35" width="20.9" height="32.3" rx="8.549999999999999" fill="#B5B5B5"/><path d="M64.3 90.65 v24.7 M75.7 90.65 v24.7" stroke="#B5B5B5" stroke-width="6.6499999999999995" stroke-linecap="round"/><path d="M59.55 63.099999999999994 l-8 26 M80.45 63.099999999999994 l22 -18" stroke="#B5B5B5" stroke-width="5.699999999999999" stroke-linecap="round"/><path d="M92 4 h60 a7 7 0 0 1 7 7 v20 a7 7 0 0 1 -7 7 h-30 l-9 9 v-9 h-21 a7 7 0 0 1 -7 -7 v-20 a7 7 0 0 1 7 -7 z" fill="#FFBA07"/><text x="122" y="24" text-anchor="middle" font-family="Plus Jakarta Sans,sans-serif" font-weight="800" font-size="11" fill="#2B2B2B">You've got it</text></svg></span></h2>
+  <h2>Tutor <span>vs Coach.</span></h2>
   <div class="vs flex1">
     <div class="col tut">
+        <div class="vis-ico sp big" aria-hidden="true"></div>
         <div class="hdr">A tutor</div>
       <div class="row">Solves it while the child watches, then the child copies.</div>
       <div class="row">Jumps in with the answer the moment the child goes quiet.</div>
       <div class="row">Does most of the talking.</div>
     </div>
-    <div class="mid"><i>→</i><i>→</i><i>→</i></div>
+    <div class="mid"><i class="sp big"></i><i>→</i><i>→</i><i>→</i></div>
     <div class="col coach">
-        <div class="hdr">A Cuemath Coach</div>
+        <svg class="vis-ico gym big" viewBox="0 0 240 124" role="img" aria-label="A coach spots a learner lifting a barbell and says: you have got it"><path d="M10 118 h220" stroke="#D9D9D9" stroke-width="3" stroke-linecap="round"/><path d="M115.0 22 h70" stroke="#2B2B2B" stroke-width="5" stroke-linecap="round"/><rect x="101.0" y="6" width="14" height="32" rx="3" fill="#FFBA07"/><rect x="185.0" y="6" width="14" height="32" rx="3" fill="#FFBA07"/><rect x="93.0" y="11" width="8" height="22" rx="2" fill="#FFBA07"/><rect x="199.0" y="11" width="8" height="22" rx="2" fill="#FFBA07"/><circle cx="150" cy="44" r="11.0" fill="#2B2B2B"/><rect x="139.0" y="57.0" width="22.0" height="34.0" rx="9.0" fill="#2B2B2B"/><path d="M144.0 91.0 v26.0 M156.0 91.0 v26.0" stroke="#2B2B2B" stroke-width="7.0" stroke-linecap="round"/><path d="M140.0 62.0 l-14 -24 M160.0 62.0 l14 -24" stroke="#2B2B2B" stroke-width="6.0" stroke-linecap="round"/><circle cx="70" cy="46" r="10.45" fill="#B5B5B5"/><rect x="59.55" y="58.35" width="20.9" height="32.3" rx="8.549999999999999" fill="#B5B5B5"/><path d="M64.3 90.65 v24.7 M75.7 90.65 v24.7" stroke="#B5B5B5" stroke-width="6.6499999999999995" stroke-linecap="round"/><path d="M59.55 63.099999999999994 l-8 26 M80.45 63.099999999999994 l22 -18" stroke="#B5B5B5" stroke-width="5.699999999999999" stroke-linecap="round"/><path d="M92 4 h60 a7 7 0 0 1 7 7 v20 a7 7 0 0 1 -7 7 h-30 l-9 9 v-9 h-21 a7 7 0 0 1 -7 -7 v-20 a7 7 0 0 1 7 -7 z" fill="#FFBA07"/><text x="122" y="24" text-anchor="middle" font-family="Plus Jakarta Sans,sans-serif" font-weight="800" font-size="11" fill="#2B2B2B">You've got it</text></svg>
+        <div class="hdr bigcoach">A Cuemath Coach</div>
       <div class="row">Makes the child do the thinking, and the explaining.</div>
       <div class="row">Holds the struggle, and keeps it productive.</div>
       <div class="row">Talks less. The child talks more.</div>
